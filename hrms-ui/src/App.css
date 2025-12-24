@@ -1,0 +1,11 @@
+.app {
+  display: flex;
+}
+
+.main {
+  margin-left: 200px; /* SAME as sidebar width */
+  padding: 20px;
+  width: calc(100% - 200px);
+  /* background-color: aliceblue; */
+  min-height: 100vh;
+}
